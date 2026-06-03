@@ -2,7 +2,7 @@
 
 Chrome/Brave extension that fixes RTL/LTR text direction for Persian text on claude.ai. It sets `direction: rtl` and right alignment on chat messages and the input box when Persian characters are detected, without changing fonts.
 
-Narrow by design: it only runs on `claude.ai`. For a general, all-sites RTL fixer see the separate FlowDir extension (`RTL-local`).
+Narrow by design: it only runs on `claude.ai`. For a general, all-sites RTL fixer see the separate FlowDir extension (see [`flowdir-rtl-extension`](https://github.com/sahandsorouri/flowdir-rtl-extension)).
 
 ## Install (unpacked)
 
