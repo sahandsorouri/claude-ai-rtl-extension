@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Claude RTL Fix - فارسی",
+  "version": "1.0",
+  "description": "Fixes RTL/LTR direction for Persian text in Claude.ai",
+  "permissions": ["scripting"],
+  "host_permissions": ["https://claude.ai/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://claude.ai/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
